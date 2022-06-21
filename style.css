@@ -1,0 +1,37 @@
+*, ::before, :after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body { 
+    height: 100vh;
+}
+
+.navbar {
+    min-height: 90px;
+}
+
+.accueil {
+    background-image: url(./Image/1156660.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+}
+
+#Logo {
+    height: 50px;
+    width: 50px;
+}
+
+.menu ul li a { 
+    color: white;
+}
+
+.marge {
+    margin-top: 100px;
+}
+
+.marge-g {
+    margin-left: 150px;
+}

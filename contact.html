@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style_1.css">
+  <title>J-pan - Contact</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-danger fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand menu" href="./index.html"><img id="Logo" src="./Image/Logo.svg"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="menu collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Section
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-dark" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+
+
+  <div class="container w-75 mt-4">
+    <h1 class="display-4 text-center mb-4 mt-3">Formulaire</h1>
+
+    <!--Formulaire-->
+
+    <form action="https://httpbin.org/post" method="POST">
+      <!-- 2 column grid layout with text inputs for the first and last names -->
+      <div class="row mb-4">
+        <div class="col">
+          <div class="form-outline">
+            <input name="Prenom" type="text" id="say" value="" class="form-control" />
+            <label class="form-label" for="form6Example1">Prénom</label>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="form-outline">
+            <input name="Nom" type="text" id="say" value="" class="form-control" />
+            <label class="form-label" for="form6Example2">Nom de famille</label>
+          </div>
+        </div>
+      </div>
+
+      <!-- Text input -->
+      <div class="form-outline mb-4">
+        <input name="Entreprise" type="text" id="say" value="" class="form-control" />
+        <label class="form-label" for="form6Example3">Nom d'entreprise</label>
+      </div>
+
+      <!-- Text input -->
+      <div class="form-outline mb-4">
+        <input name="Adresse" type="text" id="say" value="" class="form-control" />
+        <label class="form-label" for="form6Example4">Adresse</label>
+      </div>
+
+      <!-- Email input -->
+      <div class="form-outline mb-4">
+        <input name="E-mail" type="email" id="say" value="" class="form-control" />
+        <label class="form-label" for="form6Example5">E-mail</label>
+      </div>
+
+      <!-- Message input -->
+      <div class="form-outline mb-4">
+        <textarea name="Message" class="form-control" id="say"  value="" rows="4"></textarea>
+        <label class="form-label" for="form6Example7"></label>
+      </div>
+
+      <!-- Submit button -->
+      <button type="submit" class="btn btn-danger btn-block mb-4">Place order</button>
+    </form>
+  </div>
+
+
+
+
+
+
+
+
+  <!-- Footer -->
+  <footer class="text-center text-lg-start bg-light text-muted">
+
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold mb-4 mt-4">
+              <i class="fas fa-gem me-3"></i>J-pan
+            </h6>
+            <p>
+              Un site permettant de faire découvrir le Japon sur plusieurs formes.
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Pages
+            </h6>
+            <p>
+              <a href="./page1.html" class="text-reset">Lieux Cultes</a>
+            </p>
+            <p>
+              <a href="./page2.html" class="text-reset">Spécialités Culinaires</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Culture</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Histoire</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Useful links
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">Privacy Policy</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Site Map</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Terms</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Help</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Contact
+            </h6>
+            <p><i class="fas fa-home"></i>Grenoble, 38000, France</p>
+            <p>
+              <i class="fas fa-envelope"></i> enzo.bellet@le-campus-numérique.fr
+            </p>
+            <p><i class="fas fa-phone"></i>+ 33 7 63 87 70 60</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+
+    <!-- Copyright -->
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+      © 2021 Copyright:
+      <a class="text-reset fw-bold" href="https://mdbootstrap.com/">Moi</a>
+    </div>
+    <!-- Copyright -->
+
+  </footer>
+  <!-- Footer -->
+</body>
+
+</html>
